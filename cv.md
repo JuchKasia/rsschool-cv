@@ -1,6 +1,6 @@
 # Katarzyna Juchniewicz
 
-![image](IMAGE\Kasia_mini.jpg)
+![image](assets\img\Kasia_mini.jpg)
 
 ## Junior Frontend Developer
 
