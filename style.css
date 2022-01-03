@@ -1,20 +1,43 @@
 body {
-    font-family: 'Spline Sans', sans-serif;
-    background-color: antiquewhite;
+    margin: 0;
     padding: 40px;
+    border: 1px solid #000000;
+
+    font-family: 'Spline Sans', sans-serif;
+    
+    font-size: 16px;
+    color: black;
+    background-color: antiquewhite;
+
 }
 
 * {
     box-sizing: border-box;
   }
-  
+
+  .nav {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      list-style: none;
   }
+
+  .nav-list {    
+      padding: 0 20px;
+      line-height: 50px;
+      transition: .5s;
+      cursor: pointer;
+      color: brown;
+      text-decoration: none;
+  }
+  
+  .nav-items a {
+      color: brown;
+      text-decoration: none;
+      transition: color 0.5s;
+   }
+
 @font-face {
     font-family: Spline Sans;
     src: url(assets\fonts\Spline_Sans\SplineSans-VariableFont_wght.ttf);
-}
-
-    position:absolute
-    : antiquewhite;
-    font-size: 26px;
 }
