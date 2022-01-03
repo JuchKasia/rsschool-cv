@@ -1,3 +1,20 @@
-h1 {
+body {
+    font-family: 'Spline Sans', sans-serif;
+    background-color: antiquewhite;
+    padding: 40px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  }
+@font-face {
+    font-family: Spline Sans;
+    src: url(assets\fonts\Spline_Sans\SplineSans-VariableFont_wght.ttf);
+}
+
+    position:absolute
+    : antiquewhite;
     font-size: 26px;
 }
