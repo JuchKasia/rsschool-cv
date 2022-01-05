@@ -1,0 +1,171 @@
+@font-face {
+    font-family: Spline Sans;
+    src: url(assets\fonts\Spline_Sans\SplineSans-VariableFont_wght.ttf);
+} 
+
+* {
+    box-sizing: border-box;
+  }
+
+/*Body*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Spline Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    min-height: 100vh;
+    line-height: 1.6;
+    color: black;
+    background-color: antiquewhite;
+}
+
+ /*Container*/
+
+ .container {
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+
+.right-side {
+    width: 830px;
+    padding-left: 80px;
+    padding-right: 200px;
+    padding-top: 68px;
+    padding-bottom: 68px;
+}
+  
+/*Main container*/
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.section-title {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.section {
+    width: 100%;
+}
+
+
+/*Navigation*/
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth; 
+}
+
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    font-size: 16px;
+    color: brown;
+    cursor: pointer;
+    transition: color 0.2s linear;
+    text-decoration: none;
+    align-items: center;
+}
+
+.section-item a {
+    color: #829985;
+    text-decoration: none;  
+    transition: color 0.5s;
+}
+
+.section-item a:hover {
+    color: #5d7260;
+    text-decoration: none;
+ }
+
+/*Header*/
+
+.header {
+    width: 100%;
+    position: absolute;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1000;
+}
+
+/*Right side*/
+
+.right-side {
+    width: 800px;
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 200px;
+    padding-top: 100px;
+    padding-bottom: 65px;
+}
+  
+.section-profile-title {
+    font-size: 45px;
+    line-height: 2;
+    margin-bottom: 20px;
+}
+
+.profile-item {
+    font-size: 30px;
+}
+
+/*Left side*/
+
+.left-side {
+    width: 600px;
+    padding-left: 20px;
+  }
+  
+.photo {
+    width: 250px;
+    padding-top: 100px;
+}
+
+.rsschool {
+    width: 120px;
+    height: 40px;
+    background-image: url("assets\svg\rs_school_js.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+
+.footer {
+    text-align: center;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    width: 100%;
+}
+
+
+@media (max-width: 765px) {
+    .section {
+      width: 100%;
+    }
+  }
