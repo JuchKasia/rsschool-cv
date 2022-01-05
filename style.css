@@ -34,7 +34,6 @@ body {
     max-width: 1000px;
     margin: 0 auto;
     background-color: antiquewhite;
-    border: 1px solid red;
 }
 
 .right-side {
@@ -51,9 +50,9 @@ body {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-  }
+}
 
-  .section-title {
+.section-title {
     font-size: 30px;
     font-weight: 700;
     text-transform: uppercase;
@@ -66,11 +65,6 @@ body {
     width: 100%;
 }
 
-@media (max-width: 768px) {
-    .section {
-        width: 100%;
-    }
-}
 
 /*Navigation*/
 
@@ -151,7 +145,8 @@ html {
     width: 250px;
     padding-top: 100px;
 }
-.rss {
+
+.rsschool {
     width: 120px;
     height: 40px;
     background-image: url("assets\svg\rs_school_js.svg");
@@ -160,8 +155,13 @@ html {
   }
 
 
-
-
+.footer {
+    text-align: center;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    width: 100%;
+}
 
 
 @media (max-width: 765px) {
