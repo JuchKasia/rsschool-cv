@@ -1,43 +1,82 @@
+@font-face {
+    font-family: Spline Sans;
+    src: url(assets\fonts\Spline_Sans\SplineSans-VariableFont_wght.ttf);
+} 
+
+* {
+    box-sizing: border-box;
+  }
+
+/*Body*/
+
 body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 
     margin: 0;
-    padding: 40px;
-    border: 1px solid #000000;
-
+    padding: 0;
+    
     font-family: 'Spline Sans', sans-serif;
     font-size: 18px;
     font-weight: 400;
-    line-height: 1.5;
+    min-height: 100vh;
+    line-height: 1.6;
     color: black;
     background-color: antiquewhite;
 }
 
-* {
-    box-sizing: border-box;
+ /*Container*/
+
+ .container {
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    border: 1px solid red;
 }
+
+.right-side {
+    width: 830px;
+    padding-left: 80px;
+    padding-right: 200px;
+    padding-top: 68px;
+    padding-bottom: 68px;
+}
+  
+/*Main container*/
 
 .main-container {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .section-title {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+    line-height: 1.6;
 }
 
 .section {
-    width: 50%;
+    width: 100%;
 }
 
-.container {
-    display: flex;
-    max-width: 1400px;
-    margin: 0 auto;
-    background-color: antiquewhite;
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
 }
+
+/*Navigation*/
 
 .nav-list {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     list-style: none;
 }
@@ -46,130 +85,72 @@ html {
     scroll-behavior: smooth; 
 }
 
-.nav-link {    
+
+.nav-link {
     padding: 0 20px;
-    font-size: 16px;
     line-height: 50px;
-    transition: .5s;
-    cursor: pointer;
+    font-size: 16px;
     color: brown;
+    cursor: pointer;
+    transition: color 0.2s linear;
     text-decoration: none;
+    align-items: center;
 }
 
-a:hover {
+.section-item a {
+    color: #829985;
+    text-decoration: none;  
+    transition: color 0.5s;
+}
+
+.section-item a:hover {
     color: #5d7260;
     text-decoration: none;
+ }
+
+/*Header*/
+
+.header {
+    width: 100%;
+    position: absolute;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1000;
 }
 
-.profile,
-.summary,
-.code,
-.languages {
-    margin-bottom: 60px;
-}
+/*Right side*/
 
 .right-side {
-    width: 1000px;
+    width: 800px;
+    width: 100%;
     padding-left: 80px;
     padding-right: 200px;
-    padding-top: 65px;
+    padding-top: 100px;
     padding-bottom: 65px;
-
 }
-
-.profile {
+  
+.section-profile-title {
     font-size: 45px;
-    font-weight: 800;
     line-height: 2;
     margin-bottom: 20px;
 }
 
 .profile-item {
-    margin-bottom: 27px;
+    font-size: 30px;
 }
 
-.section-title {
-    font-size: 22px;
-    line-height: 24px;
-    font-weight: 600;
-    margin-bottom: 14px;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-}
-
-.section-title a {
-    color: brown;
-    text-decoration: none;
-    transition: color 0.5s;
-}
-
-.profile-item,
-.summary-item,
-.code-item,
-.languages-list {
-    font-size: 18px;
-    line-height: 1.7;
-    margin-bottom: 14px;
-}
+/*Left side*/
 
 .left-side {
-    width: 400px;
-    background-color: antiquewhite;
-    color: #000000;
-}
-
+    width: 600px;
+    padding-left: 20px;
+  }
+  
 .photo {
-    width: 120px;
-    border-radius: 50%;
-  }
-  
-.section-title {
-    font-size: 22px;
-    line-height: 1.09;
-  }
-  
-.contact-item,
-.skills-item,
-.education-item {
-    font-size: 16px;
-    line-height: 1.7;
-  }
-  
-.contact-list,
-.skills-list,
-.education-list {
-    list-style: none;
-    padding-left: 0;
-    margin-bottom: 60px;
-  }
-  
-.skills-item::before {
-    content: "\2022";
-    margin-right: 8px;
-    color: #ff6b08;
-    font-size: 18px;
+    width: 250px;
+    padding-top: 100px;
 }
-  
-.section-item {
-    position: relative;
-    padding-left: 30px;
-    color: #2d49c4;
-    text-decoration: none;
-    transition: color 0.5s;
-}
-  
-.section-title: {
-    font-size: 22px;
-    font-weight: 370;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    margin-bottom: 40px;
-}
-
-.left-side {
-    width: 500;
-}
-
 .rss {
     width: 120px;
     height: 40px;
@@ -178,9 +159,10 @@ a:hover {
     background-repeat: no-repeat;
   }
 
-@font-face {
-    font-family: Spline Sans;
-    src: url(assets\fonts\Spline_Sans\SplineSans-VariableFont_wght.ttf); 
+
+
+
+
 
 @media (max-width: 765px) {
     .section {
