@@ -1,6 +1,6 @@
 # Katarzyna Juchniewicz
 
-![image](assets\img\Kasia_mini.jpg)
+![image](./assets/img/Kasia_mini.jpg)
 
 ## Junior Frontend Developer
 
@@ -16,16 +16,18 @@
 ### About me:
 ***
 Three years ago I became a photographer. I am interested in photography and retouching. I'm became an advanced photoshop user.
-I want to get knowledge and skills that will be a good Frontend Developer and develop my programming skills.
+I’m interested in Web Development because this occupation provides endless possibilities for professional growth. I want to get knowledge and skills that will be a good Frontend Developer and develop my programming skills.
 
 ### Skills:
 ***
-- HTML
-- CSS
-- JavaScript (Basic)
+- HTML5
+- CSS / SASS
+- JavaScript Basic
+- Node.js Basic
 - Git, GitHub
 - VSCode
 - Adobe Photoshop, Capture One
+- Figma
 
 ### Code example:
 ***
