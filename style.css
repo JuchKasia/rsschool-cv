@@ -106,7 +106,7 @@ body {
     justify-content: flex-end;
     align-items: center;
     list-style: none;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .nav-item {
@@ -198,13 +198,13 @@ body {
     width: 500px;
     
     padding: 20px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
   
 .photo {
     width: 250px;
     margin: 0 auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .left-wrap {
@@ -238,7 +238,7 @@ body {
     cursor: pointer;
     text-decoration: none;
     width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     
 }
 
