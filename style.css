@@ -64,7 +64,7 @@ body {
 body {
     display: flex;
     flex-direction: column;
-    max-width: 1440px;
+    max-width: 12800px;
     width: 100%;
     margin: 0 auto;
     padding: 0px;
@@ -79,7 +79,7 @@ body {
 
 /*Header*/
 .header {
-    max-width: 1440px;
+    max-width: 1200px;
     width: 100%; 
     min-height: 90px;
     background-color: antiquewhite;
@@ -195,7 +195,7 @@ body {
 /*Left side*/
 
 .left-side {
-    width: 500px;
+    width: 380px;
     
     padding: 20px;
     /* border: 1px solid red; */
