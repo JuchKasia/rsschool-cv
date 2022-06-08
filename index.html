@@ -5,48 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="icon" href="assets/faviconCamera.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Merriweather:wght@700&family=Spline+Sans:wght@300&display=swap" rel="stylesheet">
     <title>CV Katarzyna Juchniewicz</title>
 </head>
 
 <body>
     <header class="header">
-        <div class="header-container">
+        <div class="header-container container">
             <nav class="nav">
                 <ul class="nav-list">
-                    <li class="nav-item"><a href="#contacts" class="nav-link" id="contacts">Contacts</a></li>
-                    <li class="nav-item"><a href="#skills" class="nav-link" id="skills">Skills</a></li>
-                    <li class="nav-item"><a href="#code" class="nav-link" id="code">Code</a></li>
-                    <li class="nav-item"><a href="#education" class="nav-link" id="education">Education</a></li>
-                    <li class="nav-item"><a href="#languages" class="nav-link" id="languages">Languages</a></li>
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main class="main>">
-        <div class="main-container">
+        <div class="main-container container">
             <aside class="left-side">
-                <img src="assets\img\Kasia_mini.jpg"
-                alt="my photo" class="photo"
-                width="400px">
-                <div class="left-wrap">
-                    <section class="section-contact" id="contacts"> 
-                        <h2 class=".section-title">Contacts:</h2>
+                <img src="./assets/img/Kasia_mini.jpg" alt="my-photo" class="img">
+                <div class="container-left">
+                    <section class="section-contact section-aside" id="contacts"> 
+                        <h2 class="title">Contacts:</h2>
                         <ul class="contact-list">
                             <li class="contact-item">Location: Warsaw, Poland</li>
-                            <li class="contact-item">Phone: +48 534971717</li>
-                            <li class="contact-item">Email: juchkasia@gmail.com</li>
-                            <li class="contact-item"><a href="https://github.com/JuchKasia">GitHub: JuchKasia</a></li>                                </li>
+                            <li class="contact-item">Phone:
+                                <a href="tel:+136745677554" class="section-link" id="phone">+48 534971717</a></li>
+                            <li class="contact-item">Email:                                
+                                <a href="mailto:email@shelter.com" class="section-link" id="email">juchkasia@gmail.com</a></li>
+                            <li class="contact-item">GitHub:
+                                <a href="https://github.com/JuchKasia" class="section-link">JuchKasia</a></li>
                             <li class="contact-item">Linkedin: 
-                                <a href="https://www.linkedin.com/in/katarzyna-juchniewicz-2a0180207/">Katarzyna Juchniewicz</a></li>
+                                <a href="https://www.linkedin.com/in/katarzyna-juchniewicz-2a0180207/" class="section-link">Katarzyna Juchniewicz</a></li>
                             <li class="contact-item">Discord: juchkasia</li>
                         </ul>
                     </section>
-                    <section class="section-skills" id="skills">
-                        <h2 class=".section-title">Skills:</h2>
+                    <section class="section-skills section-aside" id="skills">
+                        <h2 class="title">Skills:</h2>
                         <ul class="skills-list">
                             <li class="skills-item">HTML</li>
                             <li class="skills-item">CSS / SASS</li>
@@ -58,57 +60,65 @@
                             <li class="skills-item">Figma</li>
                         </ul>
                     </section>
-                    <section class="section-education" id="education">
-                        <h2 class=".section-title">Education:</h2>
+                    <section class="section-education section-aside" id="education">
+                        <h2 class="title">Education:</h2>
                         <ul class="education-list">
                             <li class="education-item">Belarusian State Medical University</li>
                         </ul>
                     </section>
-
                 </div>
-                
             </aside>
 
             <div class="right-side">
-                <section class="section" id="profile">
-                    <h1 class=".section-profile-title">Katarzyna Juchniewicz</h1>
+                <section class="section-profile section-right" id="profile">
+                    <h1 class="profile-title">Katarzyna Juchniewicz</h1>
                     <p class="profile-item">Junior Front-end Developer</p>
                 </section>
     
-                <section class="section" id="summary">
-                    <h2 class=".section-title">About me:</h2>
-                    <p class="summary-item">Three years ago I became a photographer. I'm became an advanced photoshop user.<br>
-                        I’m interested in Web Development because this occupation provides endless possibilities for professional growth.
-                        I want to get knowledge and skills that will be a good Frontend Developer and develop my programming skills.</p>
+                <section class="section-summaru section-right" id="summary">
+                    <h2 class="title">About me:</h2>
+                    <p class="summary-item">I was born in Belarus. I`ve been living in Warsaw since 2015.<br>
+                        I`ve been graduated the medical-prophylactic faculty of the Belarusian National Medical University.<br>
+                        I am currently changing my carrier and attending the RSSchool frontend course.<br>
+                        I like that front-end development is an area that is constantly evolving, introducing new technologies.
+                        The demand and flexibility of this position allows you to constantly grow, develop, show your creativity and problem-solving skills and, of course, there is field for career growth in various industries and places.
+                        In my free time, I am a photographer. I am interested in photography and retouching. I’m became an advanced photoshop user.  
+                        I like to keep our emotions, memories and beautiful ones. My motto "You can't turn back time, but you can save memories."
+                    </p>
                 </section>
     
-                <section class="section" id="code">
-                    <h2 class=".section-title">Code:</h2>
+                <section class="section-code section-right" id="code">
+                    <h2 class="title">Code:</h2>
                     <p class="code-item">function multiply (a, b) {<br>
                     return a * b;<br>
                     }</p>
                 </section>
     
-                <section class="section" id="languages">
-                    <h2 class=".section-title">Languages:</h2>
+                <section class="section-languages section-right" id="languages">
+                    <h2 class="title">Languages:</h2>
                     <ul class="languages-list">
                         <li class="languages-item">English - Intermediate</li>
                         <li class="languages-item">Russian - Native</li>
-                        <li class="languages-item">Polish - Intermediate</li>
+                        <li class="languages-item">Polish - Fluent</li>
                     </ul>
                 </section>
             </div>
         </div>
     </main>   
     <footer class="footer">
-        <div class="container">
-            <div class="footer-item">
-                <a href="https://github.com/JuchKasia">GitHub JuchKasia</a>
+        <div class="footer-container container">
+            <div class="footer-data">
+                <div class="c">
+                    <img src="./assets/svg/©.svg" alt="c">
+                </div>
+                <div class="year">2022</div>
+                <div class="github">
+                    <a href="https://github.com/JuchKasia" class="section-link">JuchKasia</a>
+                </div>
             </div>
-            <div class="footer-item">2022</div>
-            <div class="footer-item">
+            <div class="rss">
                 <a href="https://rs.school/js/" class="rsschool">
-                    <img src="assets\svg\rs_school_js.svg" alt="logo" width="120">
+                    <img src="./assets/svg/rs_school_js.svg" alt="logo" width="120">
                 </a>
             </div>
         </div>     
