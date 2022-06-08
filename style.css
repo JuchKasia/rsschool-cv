@@ -28,7 +28,7 @@ body {
     margin: 0 auto;
     padding: 0px;
     font-family: 'Inter', sans-serif;
-     font-size: 20px;
+    font-size: 20px;
     font-weight: 400; 
  /*   min-height: 100vh;*/
     justify-content: space-between;
@@ -47,7 +47,8 @@ body {
 .header {
     max-width: 1280px;
     width: 100%; 
-    min-height: 90px;
+    min-height: 60px;
+    margin-top: 20px;
     background-color: #fff;
     border: 1px solid red;
  }
@@ -56,8 +57,8 @@ body {
     display: flex;
     max-width: 1200px;
     width: 100%;
-    min-height: 60px;
-    margin-top: 15px;
+    /* min-height: 60px; */
+    /* margin-top: 15px; */
     justify-content: space-between;
     align-items: center;
     /* padding: 0 20px; */
@@ -90,26 +91,84 @@ body {
     font-size: 22px;
     line-height: 50px;
     text-decoration: none;
-    transition: 0.5s;
+    transition: 0.3s;
     color: #000;
     /* position: relative;
      */
 }
 
 .nav-link:hover {
-    color: #5d7260;
+    color: #9c8232;
 }
 
  /*Main container*/
  .main-container {
     display: flex;
+    max-width: 1280px;     
     width: 100%;
+    min-height: 1240px;
     margin: 0 auto;
-    background-color: antiquewhite;
+    background-color: #fff;
+}
+
+/* Left side */
+.left-side {
+    max-width: 370px;
+    width: 100%;
+    background-color: #FBCCCC;
+    border: 1px solid red;
+  }
+  
+.img {
+    width: 370px;
+    height: 550px;
+}
+
+.container-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 690px;
+}
+.section-aside {
+    margin-left: 40px;
+    /* border: 1px solid red; */
+}
+
+.section-contact {
+    display: flex;
+    flex-direction: column;
+
+}
+.title {
+    /* height: 27px; */
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 700; 
+
+}
+
+.contact-list,
+.skills-list,
+.education-list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.section-link {
+    text-decoration: none;
+    transition: 0.3s;
+    color: #000;
+}
+
+.section-link:hover {
+    color: #9c8232; 
 }
 
 /*Right side*/
-.right-side {
+/* .right-side {
     width: 800px;
     padding-left: 80px;
     padding-right: 200px;
@@ -167,36 +226,8 @@ body {
 
 /*Left side*/
 
-.left-side {
-    width: 380px;
-    
-    padding: 20px;
-    background-color: #FBCCCC;
-    /* border: 1px solid red; */
-  }
-  
-.photo {
-    width: 250px;
-    margin: 0 auto;
-    /* border: 1px solid red; */
-}
 
-.left-wrap {
-
-}
-
-.section-contact {
-
-}
-
-.section-skills {
-
-}
-
-.section-education {
-
-}
-
+/* 
 .rsschool {
     width: 120px;
     height: 40px;
@@ -204,15 +235,19 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
   }
-
+*/
 
 .footer {
-    text-align: center;
+    max-width: 1280px;
+    width: 100%;
+    min-height: 60px;
+    margin-bottom: 20px;
+    /* text-align: center;
     color: black;
     cursor: pointer;
-    text-decoration: none;
-    width: 100%;
-    /* border: 1px solid red; */
+    text-decoration: none; */
+    
+    border: 1px solid red;/*
     
 }
 
@@ -221,4 +256,4 @@ body {
     .section {
       width: 100%;
     }
-  }
+  } */ 
