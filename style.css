@@ -217,35 +217,33 @@ body {
     flex-direction: column;
     gap: 5px;
     margin-top: 10px;
+    margin-left: 25px;
 }
-
-/* 
-.rsschool {
-    width: 120px;
-    height: 40px;
-    background-image: url("assets\svg\rs_school_js.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-*/
 
 .footer {
     max-width: 1280px;
     width: 100%;
     min-height: 60px;
     margin-bottom: 20px;
-    /* text-align: center;
-    color: black;
-    cursor: pointer;
-    text-decoration: none; */
-    
-    border: 1px solid red;/*
-    
+    border: 1px solid red;
 }
 
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid red;
+}
 
-@media (max-width: 765px) {
-    .section {
-      width: 100%;
-    }
-  } */ 
+.footer-data {
+    display: flex;
+    width: 200px;
+    border: 1px solid red;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.rss {
+    border: 1px solid red;
+}
