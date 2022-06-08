@@ -168,6 +168,27 @@ body {
 }
 
 /*Right side*/
+ .right-side {
+    display: flex;
+    flex-direction: column;
+    width: 910px;
+    border: 1px solid red;
+    
+}
+
+.section-right {
+    margin-left: 80px;
+    width: 700px;
+    margin: 0 auto;
+    border: 1px solid red;
+} 
+
+.section-profile {
+
+}
+.profile-title {
+
+}
 /* .right-side {
     width: 800px;
     padding-left: 80px;
