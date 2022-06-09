@@ -196,11 +196,56 @@ body {
     font-weight: 700;
 }
 
-.summary-item,
+.summary-item {
+    line-height: 25px;
+}
 .code-item {
     line-height: 30px;
 }
 
+/*Section experience*/
+.section-experience {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.experience-list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.exp-item {
+    /* display: flex;
+    flex-direction: column; */
+    margin-left: 25px;
+    gap: 5px;
+}
+
+.experience-job {
+    font-size: 20px;
+}
+
+.experience-wrap {
+    display: flex;
+    flex-direction: row;
+    width: 550px;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.experience-place {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.experience-years {
+    font-size: 20px;
+}
+
+/*Section languages */
 .section-languages {
     display: flex;
     flex-direction: column;
